@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Oswald;
+}
+.container{
+    background-image: url(./index-background-desktop.png);
+    width: 100%;
+    height: 100vh;
+    background-position:start;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 800px;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+   
+}
+ul{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+ul li a{
+    font-size: 22px;
+    color: white;
+}
+.sidelar{
+    display: flex;
+     
+    padding: 60px 180px;
+}
+.textside{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 70px;
+}
+.textside p{
+    font-size: 25px;
+}
+.container2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 100px;
+    gap: 60px;
+}
+.box{
+    width: 570px;
+    height: 374px;
+    background-color: #F2F2F2;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+.tepa{
+    display: flex;
+    gap: 27px;
+    
+    align-items: center;
+}
+.tepa h1{
+    font-weight: 400;
+    font-size: 36px;
+}
+.past{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.past p{
+    width: 467px;
+    height: 72px;
+    font-size: 18px;
+}
+.container3{
+    width: 100%; 
+    height: 100vh;
+}
+.container3 h1{
+    font-weight: 400;
+    font-size: 60px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.container3{
+  padding: 30px 150px;
+}
+.boxcalar{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.jivoy{
+    width: 400px;
+    position: absolute;
+    top: 1800px;
+    padding: 10px 0px;
+
+}
+.container4{
+    width: 100%;
+    height: 67vh;
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding: 0px 150px;
+    
+}
+.catca{
+   
+}
+
+.pastside{
+    display: flex;
+   gap: 45px;
+}
+.pastside2{
+    display: flex;
+    gap: 45px;
+}
+.container4 h3{
+    font-size: 22px;
+}
+.side1ca p{
+    width: 436px;
+    height: 96px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #444444;
+}
+.side1ca{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 70px 0;
+}
+.side2ca{
+    position: absolute;
+    left: 700px;
+    top: 1870px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.pastside3{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    top: 560px;
+    justify-content: center;
+}
+.container5{
+    width: 100%;
+    height: 55vh;
+    background-image: url(./Rectangle\ 16.png);
+    background-position: center;
+}
+.oqbox{
+    position: absolute;
+    top: 2680px;
+    left: 80px;
+    background-color: white;
+    width: 570px;
+    height: 201px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    gap: 100px;
+}
+.inside h1{
+    font-size: 20px;
+}
+.inside2 p{
+    font-size: 16px;
+    width: 150px;
+}
+.navca{
+    width: 100%;
+    height: 20vh;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+.box:hover{
+    transform: scale(1.1);
+  border: 1px solid rgb(109, 108, 108);
+  box-shadow: 0px 10px 15px grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+@media screen and (max-width:480px) {
+   
+    nav{
+        display: none;
+    }
+    .container{
+        width: 100%;
+      
+    }
+    .sidelar{
+        flex-wrap: wrap;
+        padding: 0px 10px;
+        gap: 20px;
+    }
+    .imageside img{
+        width: 400px;
+    }
+    .textside img:nth-child(1){
+       width: 300px;
+    }
+    .container2{
+        flex-wrap: wrap;
+        padding: 60px 20px;
+        
+    }
+    .container2 .box{
+        width: 350px;
+    }
+    .past p{
+        width: 250px;
+    }
+    .past{
+        gap: 70px;
+    }
+    .container3{
+        width: 100%;
+        padding: 310px 100px;
+       
+    }
+    .container3 h1{
+        width: 100%;
+        font-size: 60px;
+       
+     
+       
+    }
+    .boxcalar{
+        flex-wrap: wrap;
+    }
+    .jivoy{
+        position: absolute;
+        margin-top: 1280px;
+        font-size: 20px;
+        left: 40px;
+    }
+    .container4{
+        width: 100%;
+        position: absolute;
+        top: 3200px;
+        flex-wrap: wrap;
+        height: 115vh;
+        background-image: url(./before-mobile\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 500px;
+        background-size: contain;
+        
+        
+    }
+    .side1ca{
+        width: 450px;
+        position: absolute;
+        left: 20px;
+        gap: 70px;
+        padding: 50px 5px;
+        
+    }
+    .pastside{
+        width: 300px;
+    }
+    .side1ca p{
+        width: 300px;
+    }
+    .side2ca{
+        display: none;
+    }
+  
+    .container5{
+        display: none;
+    }
+    body{
+        width: 100%;
+
+    }
+    .navca{
+        position: absolute;
+        top: 4030px;
+        padding: 20px;
+        gap: 25px;
+       
+        align-items: center;
+
+    }
+    .navca img{
+        width: 200px;
+        align-items: center;
+        
+
+    }
+    .navca img:nth-child(2){
+        display: none;
+    }
+   
+   
+    
+}
